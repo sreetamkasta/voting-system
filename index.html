@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Voting System</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Voting System</h1>
+        <form action="/vote" method="POST">
+            <label>
+                <input type="radio" name="candidate" value="Alice" required> Alice
+            </label><br>
+            <label>
+                <input type="radio" name="candidate" value="Bob" required> Bob
+            </label><br>
+            <label>
+                <input type="radio" name="candidate" value="Charlie" required> Charlie
+            </label><br><br>
+            <button type="submit">Submit Vote</button>
+        </form>
+    </div>
+</body>
+</html>
